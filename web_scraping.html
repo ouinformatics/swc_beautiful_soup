@@ -169,19 +169,6 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -203,7 +190,7 @@ div#notebook {
 </li>
 <li><a href="#Beautiful-Soup">Beautiful Soup Example</a> </li>
 <li><a href="#Pandas-Quick-Example">Pandas Example</a></li>
-<li>Web Scraping Best Practices</li>
+<li><a href="#Web-Scraping-Best-Practices">Web Scraping Best Practices</a></li>
 </ol>
 <h2 id="Lesson">Lesson<a class="anchor-link" href="#Lesson">&#182;</a></h2><p>This lesson will scrape the political party platform from  <a href="'http://www.presidency.ucsb.edu/platforms.php'">American Presidency Project</a>. The main page contains links for each politcal party platform organized by party and year. The main objective is to retrieve the appropriate platform links and download the text of each platform and save the content to a file.</p>
 
@@ -2329,11 +2316,6 @@ This is not another trivial political argument. It&apos;s the defining issue of 
             <span class="k">for</span> <span class="n">itm</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">findChildren</span><span class="p">([</span><span class="s">&#39;p&#39;</span><span class="p">,</span><span class="s">&#39;h2&#39;</span><span class="p">,</span><span class="s">&#39;h3&#39;</span><span class="p">]):</span>
                 <span class="n">text</span> <span class="o">=</span> <span class="n">replace_with_newlines</span><span class="p">(</span><span class="n">itm</span><span class="p">)</span>
                 <span class="n">scraped_text</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;%s </span><span class="se">\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">text</span><span class="p">)</span>
-            <span class="c">#for itm in item.children:</span>
-            <span class="c">#    try:</span>
-            <span class="c">#        scraped_text.write(itm.get_text())</span>
-            <span class="c">#    except:</span>
-            <span class="c">#        pass</span>
 
 <span class="n">request_log_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Finished scraping!&quot;</span><span class="p">)</span>
@@ -3409,6 +3391,20 @@ Finished scraping!
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Web-Scraping-Best-Practices">Web Scraping Best Practices<a class="anchor-link" href="#Web-Scraping-Best-Practices">&#182;</a></h2><ol>
+<li>Generate a log file to provide record of when the page was scraped.</li>
+<li>Be kind to you fellow web server administrators! Limit the number of times downloading.</li>
+<li>Log and check web request status_codes.</li>
+</ol>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
