@@ -169,13 +169,26 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Web-Scraping">Web Scraping<a class="anchor-link" href="#Web-Scraping">&#182;</a></h1><p>The process of retrieving data or content from a web page is called web scraping. This is probably more appropriately called screen scraping. This lesson will identify major concepts within web page design, content retrieval, and web scraping best practices and tools.</p>
-<p>Add credits to VAM!!!!</p>
+<p>Adapted from <strong>Rebecca Weiss's</strong> <a href="http://rjweiss.github.io/VAM-Python/VAM.html">VAM tutorial</a> by Mark Stacy</p>
 <h2 id="Topics">Topics<a class="anchor-link" href="#Topics">&#182;</a></h2><ol>
 <li><a href="#Analyze-Web-Pages">Analyze web page</a><ol>
 <li>HTML HyperText Markup Language</li>
@@ -199,7 +212,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
@@ -217,7 +230,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[88]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <iframe src=http://www.presidency.ucsb.edu/platforms.php width=100% height=400px></iframe>
@@ -257,7 +270,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span>
@@ -272,7 +285,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[89]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -1186,7 +1199,7 @@ RAvhlxdqAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">Image</span><span class="p">(</span><span class="s">&#39;http://www.cs.toronto.edu/~shiva/cscb07/img/dom/treeStructure.png&#39;</span><span class="p">)</span>
@@ -1200,7 +1213,7 @@ RAvhlxdqAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[90]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_png output_subarea output_execute_result">
@@ -1505,7 +1518,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[91]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c">#Python Library for retrieving page</span>
@@ -1525,7 +1538,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[91]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1540,7 +1553,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[92]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">r</span><span class="o">.</span><span class="n">status_code</span>
@@ -1554,7 +1567,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[92]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1597,7 +1610,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[93]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">from</span> <span class="nn">bs4</span> <span class="k">import</span>  <span class="n">BeautifulSoup</span>
@@ -1615,7 +1628,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">r</span><span class="o">.</span><span class="n">text</span><span class="p">[:</span><span class="mi">1000</span><span class="p">]</span>
@@ -1629,7 +1642,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[94]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[7]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1644,7 +1657,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">r</span><span class="o">.</span><span class="n">headers</span>
@@ -1658,11 +1671,11 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[95]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>{&apos;Keep-Alive&apos;: &apos;timeout=15, max=100&apos;, &apos;Connection&apos;: &apos;Keep-Alive&apos;, &apos;Server&apos;: &apos;Apache&apos;, &apos;Content-Encoding&apos;: &apos;gzip&apos;, &apos;Content-Length&apos;: &apos;4126&apos;, &apos;Content-Type&apos;: &apos;text/html&apos;, &apos;Vary&apos;: &apos;Accept-Encoding&apos;, &apos;Date&apos;: &apos;Tue, 08 Dec 2015 18:27:29 GMT&apos;}</pre>
+<pre>{&apos;Date&apos;: &apos;Wed, 09 Dec 2015 21:56:56 GMT&apos;, &apos;Vary&apos;: &apos;Accept-Encoding&apos;, &apos;Server&apos;: &apos;Apache&apos;, &apos;Content-Length&apos;: &apos;4126&apos;, &apos;Content-Encoding&apos;: &apos;gzip&apos;, &apos;Content-Type&apos;: &apos;text/html&apos;, &apos;Keep-Alive&apos;: &apos;timeout=15, max=100&apos;, &apos;Connection&apos;: &apos;Keep-Alive&apos;}</pre>
 </div>
 
 </div>
@@ -1673,7 +1686,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Load Beautiful Soup with requests text</span>
@@ -1688,7 +1701,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">prettify</span><span class="p">()[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1000</span><span class="p">]</span>
@@ -1702,7 +1715,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[97]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1717,7 +1730,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[98]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">title</span>
@@ -1731,7 +1744,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[98]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1746,7 +1759,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[99]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">meta</span>
@@ -1760,7 +1773,7 @@ LEJchwAEIAABCEDgKAL/D1dY1f/4wNjGAAAAAElFTkSuQmCC
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[99]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1795,7 +1808,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[100]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text</span>
@@ -1809,7 +1822,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[100]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[13]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1824,7 +1837,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[101]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">a</span>
@@ -1838,7 +1851,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[101]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[14]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1853,7 +1866,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">p</span>
@@ -1867,7 +1880,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[102]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[15]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1893,7 +1906,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">all_links</span><span class="o">=</span><span class="p">[]</span>
@@ -1923,7 +1936,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[104]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">all_links</span><span class="p">[</span><span class="mi">40</span><span class="p">:</span><span class="mi">60</span><span class="p">]</span>
@@ -1937,7 +1950,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[104]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[17]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -1971,7 +1984,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[105]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="k">for</span> <span class="n">link</span> <span class="ow">in</span> <span class="n">all_links</span><span class="p">[</span><span class="mi">40</span><span class="p">:</span><span class="mi">60</span><span class="p">]:</span>
@@ -2018,7 +2031,7 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[106]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Get all Valid Links</span>
@@ -2090,7 +2103,7 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[108]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">r</span> <span class="o">=</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;http://www.presidency.ucsb.edu/ws/index.php?pid=101962&#39;</span><span class="p">)</span>
@@ -2104,7 +2117,7 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">title</span>
@@ -2118,7 +2131,7 @@ href #59 = index.php?pid=29599
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[109]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[21]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2133,7 +2146,7 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[110]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">title</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span><span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;:&#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">)</span>
@@ -2147,7 +2160,7 @@ href #59 = index.php?pid=29599
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[110]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2162,7 +2175,7 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">p</span><span class="o">.</span><span class="n">get_text</span><span class="p">()[:</span><span class="mi">2000</span><span class="p">]</span>
@@ -2176,7 +2189,7 @@ href #59 = index.php?pid=29599
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[111]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[29]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -2191,13 +2204,54 @@ href #59 = index.php?pid=29599
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="n">data</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s">&#39;.displaytext&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s">&#39;.displaytext&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">get_text</span><span class="p">()[:</span><span class="mi">1000</span><span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[39]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&quot;Moving America Forward2012 Democratic National PlatformMoving America ForwardFour years ago, Democrats, independents, and many Republicans came together as Americans to move our country forward. We were in the midst of the greatest economic crisis since the Great Depression, the previous administration had put two wars on our nation&apos;s credit card, and the American Dream had slipped out of reach for too many. Today, our economy is growing again, al-Qaeda is weaker than at any point since 9/11, and our manufacturing sector is growing for the first time in more than a decade. But there is more we need to do, and so we come together again to continue what we started. We gather to reclaim the basic bargain that built the largest middle class and the most prosperous nation on Earth - the simple principle that in America, hard work should pay off, responsibility should be rewarded, and each one of us should be able to go as far as our talent and drive take us. This election is not simply a ch&quot;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="k">def</span> <span class="nf">replace_with_newlines</span><span class="p">(</span><span class="n">element</span><span class="p">):</span>
+    <span class="n">text</span> <span class="o">=</span> <span class="s">&#39;&#39;</span>
+    <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">element</span><span class="o">.</span><span class="n">recursiveChildGenerator</span><span class="p">():</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">elem</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+            <span class="n">text</span> <span class="o">+=</span> <span class="n">elem</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+        <span class="k">elif</span> <span class="n">elem</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s">&#39;br&#39;</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">+=</span> <span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span>
+    <span class="k">return</span> <span class="n">text</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s">&#39;.displaytext&#39;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">itm</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">children</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;%s </span><span class="se">\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">itm</span><span class="o">.</span><span class="n">get_text</span><span class="p">()[:</span><span class="mi">100</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">itm</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">findChildren</span><span class="p">([</span><span class="s">&#39;p&#39;</span><span class="p">,</span><span class="s">&#39;h2&#39;</span><span class="p">,</span><span class="s">&#39;h3&#39;</span><span class="p">])[:</span><span class="mi">10</span><span class="p">]:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="n">replace_with_newlines</span><span class="p">(</span><span class="n">itm</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;%s </span><span class="se">\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">text</span><span class="p">[:</span><span class="mi">1000</span><span class="p">])</span>
+        <span class="c">#print(&quot;%s \n&quot; % itm.get_text()[:1000])</span>
+        
 </pre></div>
 
 </div>
@@ -2210,11 +2264,26 @@ href #59 = index.php?pid=29599
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Moving America Forward2012 Democratic National Platform 
+<pre>Moving America Forward
+2012 Democratic National Platform 
 
 Moving America Forward 
 
-Four years ago, Democrats, independents, and many Republicans came together as Americans to move our 
+Four years ago, Democrats, independents, and many Republicans came together as Americans to move our country forward. We were in the midst of the greatest economic crisis since the Great Depression, the previous administration had put two wars on our nation&apos;s credit card, and the American Dream had slipped out of reach for too many.Today, our economy is growing again, al-Qaeda is weaker than at any point since 9/11, and our manufacturing sector is growing for the first time in more than a decade. But there is more we need to do, and so we come together again to continue what we started. We gather to reclaim the basic bargain that built the largest middle class and the most prosperous nation on Earth - the simple principle that in America, hard work should pay off, responsibility should be rewarded, and each one of us should be able to go as far as our talent and drive take us.This election is not simply a choice between two candidates or two political parties, but between two fundament 
+
+Today, our economy is growing again, al-Qaeda is weaker than at any point since 9/11, and our manufacturing sector is growing for the first time in more than a decade. But there is more we need to do, and so we come together again to continue what we started. We gather to reclaim the basic bargain that built the largest middle class and the most prosperous nation on Earth - the simple principle that in America, hard work should pay off, responsibility should be rewarded, and each one of us should be able to go as far as our talent and drive take us.This election is not simply a choice between two candidates or two political parties, but between two fundamentally different paths for our country and our families.We Democrats offer America the opportunity to move our country forward by creating an economy built to last and built from the middle out. Mitt Romney and the Republican Party have a drastically different vision. They still believe the best way to grow the economy is from the top 
+
+This election is not simply a choice between two candidates or two political parties, but between two fundamentally different paths for our country and our families.We Democrats offer America the opportunity to move our country forward by creating an economy built to last and built from the middle out. Mitt Romney and the Republican Party have a drastically different vision. They still believe the best way to grow the economy is from the top down - the same approach that benefited the wealthy few but crashed the economy and crushed the middle class.Democrats see a young country continually made stronger by the greatest diversity of talent and ingenuity in the world, and a nation of people drawn to our shores from every corner of the globe. We believe America can succeed because the American people have never failed and there is nothing that together we cannot accomplish.Reclaiming the economic security of the middle class is the challenge we must overcome today. That begins by restorin 
+
+We Democrats offer America the opportunity to move our country forward by creating an economy built to last and built from the middle out. Mitt Romney and the Republican Party have a drastically different vision. They still believe the best way to grow the economy is from the top down - the same approach that benefited the wealthy few but crashed the economy and crushed the middle class.Democrats see a young country continually made stronger by the greatest diversity of talent and ingenuity in the world, and a nation of people drawn to our shores from every corner of the globe. We believe America can succeed because the American people have never failed and there is nothing that together we cannot accomplish.Reclaiming the economic security of the middle class is the challenge we must overcome today. That begins by restoring the basic values that made our country great, and restoring for everyone who works hard and plays by the rules the opportunity to find a job that pays the bills, t 
+
+Democrats see a young country continually made stronger by the greatest diversity of talent and ingenuity in the world, and a nation of people drawn to our shores from every corner of the globe. We believe America can succeed because the American people have never failed and there is nothing that together we cannot accomplish.Reclaiming the economic security of the middle class is the challenge we must overcome today. That begins by restoring the basic values that made our country great, and restoring for everyone who works hard and plays by the rules the opportunity to find a job that pays the bills, turn an idea into a profitable business, care for your family, afford a home you call your own and health care you can count on, retire with dignity and respect, and, most of all, give your children the kind of education that allows them to dream even bigger and go even further than you ever imagined.This has to be our North Star - an economy that&apos;s built not from the top down, but from a 
+
+Reclaiming the economic security of the middle class is the challenge we must overcome today. That begins by restoring the basic values that made our country great, and restoring for everyone who works hard and plays by the rules the opportunity to find a job that pays the bills, turn an idea into a profitable business, care for your family, afford a home you call your own and health care you can count on, retire with dignity and respect, and, most of all, give your children the kind of education that allows them to dream even bigger and go even further than you ever imagined.This has to be our North Star - an economy that&apos;s built not from the top down, but from a growing middle class, and that provides ladders of opportunity for those working hard to join the middle class.This is not another trivial political argument. It&apos;s the defining issue of our time and at the core of the American Dream. And now we stand at a make-or-break moment, and are faced with a choice between moving forwar 
+
+This has to be our North Star - an economy that&apos;s built not from the top down, but from a growing middle class, and that provides ladders of opportunity for those working hard to join the middle class.This is not another trivial political argument. It&apos;s the defining issue of our time and at the core of the American Dream. And now we stand at a make-or-break moment, and are faced with a choice between moving forward and falling back.The Republican Party has turned its back on the middle class Americans who built this country. Our opponents believe we should go back to the top-down economic policies of the last decade. They think that if we simply eliminate protections for families and consumers, let Wall Street write its own rules again, and cut taxes for the wealthiest, the market will solve all our problems on its own. They argue that if we help corporations and wealthy investors maximize their profits by whatever means necessary, whether through layoffs or outsourcing, it will automa 
+
+This is not another trivial political argument. It&apos;s the defining issue of our time and at the core of the American Dream. And now we stand at a make-or-break moment, and are faced with a choice between moving forward and falling back.The Republican Party has turned its back on the middle class Americans who built this country. Our opponents believe we should go back to the top-down economic policies of the last decade. They think that if we simply eliminate protections for families and consumers, let Wall Street write its own rules again, and cut taxes for the wealthiest, the market will solve all our problems on its own. They argue that if we help corporations and wealthy investors maximize their profits by whatever means necessary, whether through layoffs or outsourcing, it will automatically translate into jobs and prosperity that benefits us all. They would repeal health reform, turn Medicare into a voucher program, and follow the same path of fiscal irresponsibility of the past a 
 
 </pre>
 </div>
@@ -2226,7 +2295,7 @@ Four years ago, Democrats, independents, and many Republicans came together as A
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[116]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">os</span>
@@ -2257,11 +2326,14 @@ Four years ago, Democrats, independents, and many Republicans came together as A
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename_path</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">scraped_text</span><span class="p">:</span>
         <span class="n">data</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s">&#39;.displaytext&#39;</span><span class="p">)</span>
         <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-            <span class="k">for</span> <span class="n">itm</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">children</span><span class="p">:</span>
-                <span class="k">try</span><span class="p">:</span>
-                    <span class="n">scraped_text</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">itm</span><span class="o">.</span><span class="n">get_text</span><span class="p">())</span>
-                <span class="k">except</span><span class="p">:</span>
-                    <span class="k">pass</span>
+            <span class="k">for</span> <span class="n">itm</span> <span class="ow">in</span> <span class="n">item</span><span class="o">.</span><span class="n">findChildren</span><span class="p">([</span><span class="s">&#39;p&#39;</span><span class="p">,</span><span class="s">&#39;h2&#39;</span><span class="p">,</span><span class="s">&#39;h3&#39;</span><span class="p">]):</span>
+                <span class="n">text</span> <span class="o">=</span> <span class="n">replace_with_newlines</span><span class="p">(</span><span class="n">itm</span><span class="p">)</span>
+                <span class="n">scraped_text</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;%s </span><span class="se">\n</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">text</span><span class="p">)</span>
+            <span class="c">#for itm in item.children:</span>
+            <span class="c">#    try:</span>
+            <span class="c">#        scraped_text.write(itm.get_text())</span>
+            <span class="c">#    except:</span>
+            <span class="c">#        pass</span>
 
 <span class="n">request_log_file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s">&quot;Finished scraping!&quot;</span><span class="p">)</span>
